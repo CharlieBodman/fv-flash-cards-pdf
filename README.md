@@ -6,7 +6,7 @@
 
 This uses [PDF Make](http://pdfmake.org) under the hood
 
-####Example
+### Example
 ```javascript
 import FVFlashCards from 'fv-flash-cards-pdf';
 
@@ -22,7 +22,7 @@ const Cards = {
 
 const flashCardsPdf = FVFlashCards.CreateFlashCards(Cards);
 ```
-![logo](https://github.com/CharlieBodman/fv-games-boilerplate/blob/master/www/assets/images/logo.png?raw=true)
+![logo](https://github.com/CharlieBodman/fv-flash-cards-pdf/blob/master/images/single-card.png?raw=true)
 
 **Download the PDF**
 ```javascript
@@ -45,3 +45,25 @@ flashCardsPdf.getBase64((data) => {
 alert(data);
 });
 ```
+
+
+### Creating Multiple Cards
+
+```javascript
+import FVFlashCards from 'fv-flash-cards-pdf';
+
+const Cards = {
+    title: 'ᒪᐢᑿᒋᐢ ᓀᐦᐃᔭᐍᐏᐣ / Maskwacis Cree',
+    cards: [
+        {
+            middle: 'I love my brothers and sisters.',
+        },
+        {
+            bottom: 'ᓂᓵᑭᐦᐊᐘᐠ ᓃᑏᓴᓈᐠ / (ni)[sa](kiha)(wak) [niti](sa)[nak]'
+        }
+    ]
+}
+
+const flashCardsPdf = FVFlashCards.CreateFlashCards(Cards);
+```
+![logo](https://github.com/CharlieBodman/fv-flash-cards-pdf/blob/master/images/double-card.png?raw=true)
