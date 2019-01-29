@@ -19,4 +19,5 @@ const Cards = {
     ]
 }
 
-new FVFlashCards().CreateFlashCards(Cards).open({});
+
+FVFlashCards.CreateFlashCards(Cards).open({}, window);

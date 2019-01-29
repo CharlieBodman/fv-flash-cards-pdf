@@ -965,6 +965,10 @@ detect-node@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
 
+develop@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/develop/-/develop-1.0.0.tgz#49309cd343988923b6535cf4555ce9f4804c7c71"
+
 dfa@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/dfa/-/dfa-1.1.0.tgz#d30218bd10d030fa421df3ebbc82285463a31781"
@@ -3820,10 +3824,6 @@ websocket-driver@>=0.5.1:
 websocket-extensions@>=0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-
-wepback@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/wepback/-/wepback-1.0.0.tgz#bd89578f6f0019e8d3193fbca1aedb6ede9f1ed8"
 
 which-module@^2.0.0:
   version "2.0.0"
