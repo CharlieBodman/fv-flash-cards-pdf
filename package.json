@@ -2,7 +2,9 @@
   "name": "fv-flash-cards-pdf",
   "version": "1.0.0",
   "description": "Create flash cards pdf with javascript",
+  "private": false,
   "main": "src/index.js",
+  "homepage": "https://github.com/First-Peoples-Cultural-Council/fv-flash-cards-pdf",
   "scripts": {
     "develop": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
